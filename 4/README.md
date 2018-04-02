@@ -35,3 +35,14 @@ JSON.
     > At second 5: {type: "StopVideo", message: "stop video 1"}
     > At second 8: {type: "ShowLayer", message: "show layer 2”}
 ``` 
+
+
+**Usage**:
+
+En SunMedia necesitamos que todo nuestro código sea cross-browser por lo que debemos usar herramientas como webpack que nos facilitan esta tarea. El código que proporcionamos ya consta de un archivo de configuración de webpack con una build de desarrollo que te ayudará en la realización de esta prueba. 
+
+Para empezar a desarrollar tendremos que instalar algunas librerías que están listadas en el archivo `packages.json`:
+- `npm install`
+
+Posteriormente, con el objetivo de compilar el código y que esta tarea se ejecute con cada cambio sobre los archivos, tendremos que ejecutar el siguiente comando: 
+- `webpack --watch`
