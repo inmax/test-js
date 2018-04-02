@@ -1,5 +1,5 @@
 let xhttp = new XMLHttpRequest();
-import EventManagerFactory from './eventManagerFactory';
+import EventManagerFactory from './EventManagerFactory';
 
 let onReadyStateChange = function (onSuccess) {
     return function () {
