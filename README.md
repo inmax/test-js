@@ -6,10 +6,10 @@ separan los test encontrarás un fichero README.md que explica más detalladamen
 qué es lo que se pide, así como el código asociado a la prueba. 
 
 ### Las pruebas:
-- [Test 1](1/README.md)
-- [Test 2](2/README.md)
-- [Test 3](3/README.md)
-- [Test 4](4/README.md)
+- [Test 1](1)
+- [Test 2](2)
+- [Test 3](3)
+- [Test 4](4)
 
 
 ### Lo que valoramos
