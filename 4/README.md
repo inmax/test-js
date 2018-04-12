@@ -32,8 +32,9 @@ JSON.
 ```
     > At second 0: {type: "InitVideo", message: "init video 1"}
     > At second 1: {type: "ShowLayer", message: "show layer 1"}
-    > At second 5: {type: "StopVideo", message: "stop video 1"}
-    > At second 8: {type: "ShowLayer", message: "show layer 2”}
+    > At second 6: {type: "StopVideo", message: "stop video 1"}
+    > At second 6: {type: "ShowLayer", message: "show layer 2"}
+    > At second 8: {type: "ShowLayer", message: "show layer 3”}
 ``` 
 
 
