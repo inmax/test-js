@@ -16,5 +16,5 @@ const onSuccess = function (response) {
 };
 
 xhttp.onreadystatechange = onReadyStateChange(onSuccess);
-xhttp.open("GET", "https://gist.githubusercontent.com/sunmedia-tv/60036547f107d748386d46f7afb498c0/raw/c6e8582246bfce8a93f4626bc952aedafdd624a7/test.json", true);
+xhttp.open("GET", "https://gist.githubusercontent.com/sunmedia-tv/60036547f107d748386d46f7afb498c0/raw/3b6722589df7cbbff02fd827beca3c05de3d41a6/test.json", true);
 xhttp.send();
