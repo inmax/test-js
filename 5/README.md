@@ -3,14 +3,14 @@
 Para simplificar la prueba a realizar hemos creado un proyecto base con toda la configuración y dependencias necesarias para la realización de la misma. 
 A continuación, explicamos qué es lo que pedimos.
 
-## Cómo realizar la prueba
+## Cómo realizar la prueba
 
 **Qué pedimos**:
 
 1. El primer ejercicio está dividido en tres partes y consiste en completar el código Javascript existente en el fichero `src/index.js`.
    Dado un contenedor, un HTMLElement que se encuentra a lo largo de una página web y que ya viene especificado en el fichero anteriomente mencionado, será necesario:
 
-   a. Insertar un **HTMLVideoElement** (<video>) dentro de dicho contenedor cuando este sea visible en el **viewport**.
+   a. Insertar un **HTMLVideoElement** `<video>` dentro de dicho contenedor cuando este sea visible en el **viewport**.
    b. El vídeo debe reproducirse de manera automática inmediatamente después de ser insertado. 
    c. Una vez el vídeo haya finalizado su reproducción, tendremos que eliminar el **HTMLVideoElement** del contenedor en el que se encuentra.
 
