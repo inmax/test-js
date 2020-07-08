@@ -1,3 +1,6 @@
+require('es6-promise').polyfill();
+var Promise = require('es6-promise').Promise;
+
 let promise = new Promise((resolve, reject) => {
     setTimeout(function () {
         if (Math.round(Math.random()) === 1) {

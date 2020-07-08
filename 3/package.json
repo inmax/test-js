@@ -1,0 +1,15 @@
+{
+  "name": "3",
+  "version": "1.0.0",
+  "description": "En este caso, tenemos un código usando el objeto `Promise` (Promesa). Las *promises*  (promesas) nos permiten manejar situaciones asíncronas en nuestras ejecuciones,  pero tenemos un pequeño problema… No es una solución totalmente cross-browser.  Sabemos que no funciona en Internet Explorer así que nos gustaría saber cómo  modificarías nuestro código (`test.js`) para que funcione correctamente.",
+  "main": "test.js",
+  "dependencies": {
+    "es6-promise": "^4.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
