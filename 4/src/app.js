@@ -1,3 +1,4 @@
+import "./polyfill";
 let xhttp = new XMLHttpRequest();
 import EventManagerFactory from './EventManagerFactory';
 
