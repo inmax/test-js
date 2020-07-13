@@ -1,22 +1,28 @@
 export default class EventManager {
 	constructor(events) {
-		this.time = 0;
+        this.time=0;
 		this.events = events;
-		this.nextEvent = 0;
 	}
 	run() {
-		addEventListener(this.events[0].type, (e) => {
-			this.showMessage(e);
-		});
-		//this.counter();
+		this.counter();
 	}
 	counter() {
-		setInterval(() => {
+		let timer = setInterval(() => {
+			if (this.time === this.getLastSecondEvent()) {
+				clearInterval(timer);
+			}
+			this.events.forEach((item) => {
+				if (item.detail.second === this.time) {
+                    addEventListener(item.type, this.showMessage);
+					dispatchEvent(item);
+				}
+			});
 			this.time++;
-			dispatchEvent(this.events[0]);
 		}, 1000);
 	}
-
+	getLastSecondEvent() {
+		return this.events.reverse()[0].detail.second;
+	}
 	showMessage(event) {
 		if (!event) {
 			console.log("Event is not defined");
