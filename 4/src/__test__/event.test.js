@@ -1,25 +1,22 @@
-
-import hola from './prueba';
-const numberA = 10 + 10;
+import Event from "./../Event";
 
 
-test("Debería ser 20", () => {
-  expect(numberA).toBe(30);
+describe("Pruebas para crear instancia de la classe Event", () => {
+	//1.Assert
+	const obj = new Event({
+		type: "InitVideo",
+		message: "init video 1",
+		second: 0,
+	}).create();
+
+	test("Debería devolver un objeto con la propiedad detail, con la información second y message", () => {
+		expect(typeof obj).toBe("Custom Event");
+	});
+
+	test("Debería devolver un objeto con la propiedad detail, con la información second y message", () => {
+		expect(obj.detail).toEqual({
+			message: "init video 1",
+			second: 0,
+		});
+	});
 });
-
-test("Debería ser 20", () => {
-    const holaa= hola;
-  expect(holaa).toBe(30);
-});
-
-/*describe("Pruebas para crear instancia de tipo Eventos", () => {
-  test("Debería ser 20", () => {
-    //patron A/A/A . Arrange/act/asset
-
-    //1.Assert
-    const objt = new Eventt();
-    // expect(obj).toStricEqual({lo que sea})
-
-    
-  });
-});*/
